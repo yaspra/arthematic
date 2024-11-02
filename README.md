@@ -19,11 +19,20 @@ Learning About Variables:
          - IMP :INDICES STARTS with 0 (NOT 1)
          -To get the last element of a list, use the -1 index.
 
-         strings can be indexed, too! In fact, Python strings are really just lists of characters. Each character is given an index from zero to the length of the string.
+   LIST INDEX - strings can indexed, too! In fact, Python strings are really just lists of characters. Each character is given an index from zero to the length of the string.
 
 For example, the string  language = "PYTHON" ,   language[2]  would give you T , because at index position 2 in the word "PYTHON" you find the character "T." Or, using inverse the index position, youwould use  language[-4]  to access  T .
 A list of the following elements: P, Y, T, H, O, N. 
           the indices are indices: 0,1,2,3,4,5
         the inverse indices are  : -6,-5,-4,-3,-2,-1
+
+LIST METHODS: append(),remove() ,sort(), len()
+sort - alphabetically for lists of strings, and numerically for lists of numbers.
+
+Tuples  are another Python structure that can be used to store data, although instead of brackets [], they are defined using parentheses ().
+
+Ex - social_platforms_tuple = ("Facebook", "Instagram", "TikTok", "Twitter")
+Many tuple properties are similar to those of a regular list. For example, both lists and tuples can be indexed. The main difference is that tuples are immutable (can't be modified), while lists are mutable (can be modified).
+
          
 
